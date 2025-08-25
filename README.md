@@ -57,7 +57,6 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: You will need to create a `requirements.txt` file. See the section below.)*
 
 4.  **Run the application:**
     ```bash
@@ -65,9 +64,4 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
     The application will be running at `http://127.0.0.1:5000`.
 
-## 📝 How to Create `requirements.txt`
 
-Before you push your code to GitHub, you need to create a file that lists all the Python packages your project needs. In your terminal (with the `venv` activated), run this command:
-
-```bash
-pip freeze > requirements.txt
