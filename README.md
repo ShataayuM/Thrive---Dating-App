@@ -30,38 +30,56 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-* Python 3.x
-* Git
+* **Python 3.x**: Download from [python.org](https://www.python.org/)
+* **Git**: Download from [git-scm.com](https://git-scm.com/)
 
-### Installation
+### Installation Steps
 
-1.  **Clone the repository:**
+1.  **Clone the Repository**
+    Open your terminal or command prompt and run the following command to download the project files:
     ```bash
-    git clone https://github.com/ShataayuM/Thrive---Dating-App.git
+    git clone [https://github.com/ShataayuM/Thrive---Dating-App.git](https://github.com/ShataayuM/Thrive---Dating-App.git)
+    ```
+
+2.  **Navigate to the Project Folder**
+    ```bash
     cd Thrive---Dating-App
     ```
 
-2.  **Create and activate a virtual environment:**
-    * On Windows:
-        ```bash
+3.  **Create and Activate a Virtual Environment**
+    This keeps the project's dependencies isolated.
+
+    * **On Windows (PowerShell):**
+        ```powershell
         python -m venv venv
-        .\venv\Scripts\activate
+        .\venv\Scripts\Activate.ps1
         ```
-    * On macOS/Linux:
+        > **Note:** If you get a script execution error on Windows, run this command first, then try activating again:
+        > `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`
+
+    * **On macOS / Linux:**
         ```bash
         python3 -m venv venv
         source venv/bin/activate
         ```
 
-3.  **Install the required packages:**
+4.  **Install the Required Packages**
+    This command reads the `requirements.txt` file and installs all the necessary libraries automatically.
     ```bash
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt
     ```
 
-4.  **Run the application:**
+5.  **Run the Application**
+    This will start the web server.
     ```bash
     python app.py
     ```
-    The application will be running at `http://127.0.0.1:5000`.
+
+6.  **View the App**
+    Open your web browser and go to the following address:
+    [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+    You will need to register at least two different accounts to test the matching and chat functionality.
+
 
 
